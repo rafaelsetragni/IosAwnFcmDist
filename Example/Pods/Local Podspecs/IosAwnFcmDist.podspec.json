@@ -20,12 +20,15 @@
       "0.7.0-alpha.3"
     ]
   },
+  "static_framework": true,
   "platforms": {
     "ios": null
   },
+  "swift_versions": "5.3",
   "ios": {
     "source_files": "IosAwnFcmClosed.framework/**/*.h",
     "public_header_files": "IosAwnFcmCore.xcframework/**/*.h",
     "vendored_frameworks": "IosAwnFcmCore.xcframework"
-  }
+  },
+  "swift_version": "5.3"
 }
