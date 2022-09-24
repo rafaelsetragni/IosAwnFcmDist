@@ -1,6 +1,6 @@
 # IosAwnFcmDist
 
-[![CI Status](https://img.shields.io/travis/Rafael Setragni/IosAwnFcmDist.svg?style=flat)](https://travis-ci.org/Rafael Setragni/IosAwnFcmDist)
+[![CI Status](https://img.shields.io/travis/rafaelsetragni/IosAwnFcmDist.svg?style=flat)](https://travis-ci.org/rafaelsetragni/IosAwnFcmDist)
 [![Version](https://img.shields.io/cocoapods/v/IosAwnFcmDist.svg?style=flat)](https://cocoapods.org/pods/IosAwnFcmDist)
 [![License](https://img.shields.io/cocoapods/l/IosAwnFcmDist.svg?style=flat)](https://cocoapods.org/pods/IosAwnFcmDist)
 [![Platform](https://img.shields.io/cocoapods/p/IosAwnFcmDist.svg?style=flat)](https://cocoapods.org/pods/IosAwnFcmDist)
