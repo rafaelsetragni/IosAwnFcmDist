@@ -33,8 +33,8 @@ Distribution package of Awesome Notifications Firebase Cloud Message (FCM) compa
   s.platform = :ios, '11.0'
   s.swift_version = '5.3'
   
-  s.ios.source_files = 'IosAwnFcmClosed.framework/**/*.h'
-  s.ios.public_header_files = 'IosAwnFcmCore.xcframework/**/*.h'
+  #s.ios.source_files = 'IosAwnFcmClosed.framework/**/*.h'
+  #s.ios.public_header_files = 'IosAwnFcmCore.xcframework/**/*.h'
   s.ios.vendored_frameworks = 'IosAwnFcmCore.xcframework'
   
   # s.resource_bundles = {
