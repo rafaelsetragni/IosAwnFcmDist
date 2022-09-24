@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Distribution package of Awesome Notifications Firebase Cloud Message (FCM) companion plugin
                        DESC
 
-  s.homepage         = 'https://github.com/Rafael Setragni/IosAwnFcmDist'
+  s.homepage         = 'https://github.com/rafaelsetragni/IosAwnFcmDist'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Copyright', :file => 'LICENSE' }
   s.author           = { 'Rafael Setragni' => '40064496+rafaelsetragni@users.noreply.github.com' }

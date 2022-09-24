@@ -3,7 +3,7 @@
   "version": "0.7.0-alpha.3",
   "summary": "Awn Fcm Distribution package",
   "description": "Distribution package of Awesome Notifications Firebase Cloud Message (FCM) companion plugin",
-  "homepage": "https://github.com/Rafael Setragni/IosAwnFcmDist",
+  "homepage": "https://github.com/rafaelsetragni/IosAwnFcmDist",
   "license": {
     "type": "Copyright",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Rafael Setragni": "40064496+rafaelsetragni@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/Rafael Setragni/IosAwnFcmDist.git",
+    "git": "https://github.com/rafaelsetragni/IosAwnFcmDist.git",
     "tag": "0.7.0-alpha.3"
   },
   "dependencies": {
