@@ -25,7 +25,7 @@ Distribution package of Awesome Notifications Firebase Cloud Message (FCM) compa
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Copyright', :file => 'LICENSE' }
   s.author           = { 'Rafael Setragni' => '40064496+rafaelsetragni@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/Rafael Setragni/IosAwnFcmDist.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rafaelsetragni/IosAwnFcmDist.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.dependency 'IosAwnCore', '0.7.0-alpha.3'
