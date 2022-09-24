@@ -26,4 +26,4 @@ Rafael Setragni, 40064496+rafaelsetragni@users.noreply.github.com
 
 ## License
 
-IosAwnFcmDist is available under the MIT license. See the LICENSE file for more info.
+IosAwnFcmDist is available for free in debug mode and under license purchase for release mode. See the LICENSE file for more information.
