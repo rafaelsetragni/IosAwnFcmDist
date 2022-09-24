@@ -1,5 +1,5 @@
 import XCTest
-import IosAwnFcmDist
+import IosAwnFcmCore
 
 class Tests: XCTestCase {
     

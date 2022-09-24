@@ -1,0 +1,180 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IosAwnFcmCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import IosAwnCore
+@_exported import IosAwnFcmCore
+import Swift
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class AwesomeFcmEventsReceiver {
+  open var debug: Swift.Bool
+  public static var shared: IosAwnFcmCore.AwesomeFcmEventsReceiver {
+    get
+  }
+  public func subscribeOnNotificationEvents(listener: IosAwnFcmCore.AwesomeFcmListener) -> Self
+  public func unsubscribeOnNotificationEvents(listener: IosAwnFcmCore.AwesomeFcmListener) -> Self
+  public func addNewTokenEvent(withToken token: Swift.String?)
+  public func addNewNativeTokenEvent(withToken token: Swift.String?)
+  @objc deinit
+}
+public protocol AwesomeFcmListener : AnyObject {
+  func onNewFcmToken(token: Swift.String?)
+  func onNewNativeToken(token: Swift.String?)
+}
+open class AwesomeFcmService {
+  public init()
+  public func didReceiveRemoteNotification(userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
+open class AwesomeServiceExtension : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Crypto {
+  public static let signProtocol: Security.SecKeyAlgorithm
+  public static let pemPublicKey: Swift.String
+  @objc deinit
+}
+public protocol FcmBackgroundExecutor {
+  init()
+  var isRunning: Swift.Bool { get }
+  var isNotRunning: Swift.Bool { get }
+  func runBackgroundProcess(silentDataRequest: IosAwnFcmCore.FcmSilentDataRequest, silentCallbackHandle: Swift.Int64, dartCallbackHandle: Swift.Int64)
+}
+@_hasMissingDesignatedInitializers open class FcmBackgroundService {
+  public static var backgroundFcmClassType: IosAwnFcmCore.FcmBackgroundExecutor.Type?
+  public static var shared: IosAwnFcmCore.FcmBackgroundService {
+    get
+  }
+  public func enqueue(silentRequest: IosAwnFcmCore.FcmSilentDataRequest) throws -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FcmBroadcastSender {
+  public static var shared: IosAwnFcmCore.FcmBroadcastSender {
+    get
+  }
+  public func SendBroadcastNewFcmToken(token: Swift.String)
+  public func SendBroadcastSilentData(silentData: IosAwnFcmCore.SilentDataModel, completionHandler: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void) throws -> Swift.Bool
+  @objc deinit
+}
+public enum FcmCompletionHandler : Swift.Int, Swift.CaseIterable {
+  case Invalid
+  case Finished
+  case NoData
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [IosAwnFcmCore.FcmCompletionHandler]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [IosAwnFcmCore.FcmCompletionHandler] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FcmDefaultsManager {
+  public static var shared: IosAwnFcmCore.FcmDefaultsManager {
+    get
+  }
+  public var isFirebaseEnabled: Swift.Bool {
+    get
+    set
+  }
+  public var debug: Swift.Bool {
+    get
+    set
+  }
+  public var silentCallback: Swift.Int64 {
+    get
+    set
+  }
+  public var backgroundCallback: Swift.Int64 {
+    get
+    set
+  }
+  public var licenseKey: Swift.String {
+    get
+    set
+  }
+  @objc deinit
+}
+public enum FcmDefinitions {
+  public static let DART_REVERSE_CHANNEL: Swift.String
+  public static let CHANNEL_FLUTTER_PLUGIN: Swift.String
+  public static let BROADCAST_FCM_TOKEN: Swift.String
+  public static let BROADCAST_SILENT_DATA: Swift.String
+  public static let SHARED_FCM_DEFAULTS: Swift.String
+  public static let LICENSE_KEY: Swift.String
+  public static let FIREBASE_FLAG_IS_SILENT_DATA: Swift.String
+  public static let FIREBASE_ENABLED: Swift.String
+  public static let EXTRA_BROADCAST_FCM_TOKEN: Swift.String
+  public static let EXTRA_SILENT_DATA: Swift.String
+  public static let DEBUG_MODE: Swift.String
+  public static let SILENT_HANDLE: Swift.String
+  public static let DART_BG_HANDLE: Swift.String
+  public static let NOTIFICATION_TOPIC: Swift.String
+  public static let REMAINING_SILENT_DATA: Swift.String
+  public static let NOTIFICATION_SILENT_DATA: Swift.String
+  public static let CHANNEL_METHOD_INITIALIZE: Swift.String
+  public static let CHANNEL_METHOD_PUSH_NEXT_DATA: Swift.String
+  public static let CHANNEL_METHOD_GET_FCM_TOKEN: Swift.String
+  public static let CHANNEL_METHOD_NEW_FCM_TOKEN: Swift.String
+  public static let CHANNEL_METHOD_NEW_NATIVE_TOKEN: Swift.String
+  public static let CHANNEL_METHOD_IS_FCM_AVAILABLE: Swift.String
+  public static let CHANNEL_METHOD_SUBSCRIBE_TOPIC: Swift.String
+  public static let CHANNEL_METHOD_UNSUBSCRIBE_TOPIC: Swift.String
+  public static let CHANNEL_METHOD_SILENCED_CALLBACK: Swift.String
+  public static let CHANNEL_METHOD_DART_CALLBACK: Swift.String
+  public static let CHANNEL_METHOD_SHUTDOWN_DART: Swift.String
+}
+public enum FcmExceptionCode {
+  public static let CODE_FCM_EXCEPTION: Swift.String
+  public static let DETAILED_FCM_EXCEPTION: Swift.String
+}
+@_hasMissingDesignatedInitializers public class FcmSilentDataRequest {
+  final public let silentData: IosAwnFcmCore.SilentDataModel
+  final public let handler: (Swift.Bool, Swift.Error?) -> ()
+  @objc deinit
+}
+public enum FcmSource : Swift.String, Swift.CaseIterable {
+  case ServiceExtension
+  case ReceiveRemote
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [IosAwnFcmCore.FcmSource]
+  public typealias RawValue = Swift.String
+  public static var allCases: [IosAwnFcmCore.FcmSource] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class LicenseManager {
+  public static var shared: IosAwnFcmCore.LicenseManager {
+    get
+  }
+  final public func isLicenseKeyValid() throws -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SilentDataModel : IosAwnCore.AbstractModel {
+  public var data: [Swift.String : Any?]?
+  public var createdDate: IosAwnCore.RealDateTime?
+  public var createdSource: IosAwnCore.NotificationSource?
+  public var createdLifeCycle: IosAwnCore.NotificationLifeCycle?
+  public func fromMap(arguments: [Swift.String : Any?]?) -> IosAwnCore.AbstractModel?
+  public func registerCreationEvent(createdSource: IosAwnCore.NotificationSource, createdLifeCycle: IosAwnCore.NotificationLifeCycle)
+  public func toMap() -> [Swift.String : Any?]
+  public func validate() throws
+  @objc deinit
+}
+extension IosAwnFcmCore.FcmCompletionHandler : Swift.Equatable {}
+extension IosAwnFcmCore.FcmCompletionHandler : Swift.Hashable {}
+extension IosAwnFcmCore.FcmCompletionHandler : Swift.RawRepresentable {}
+extension IosAwnFcmCore.FcmSource : Swift.Equatable {}
+extension IosAwnFcmCore.FcmSource : Swift.Hashable {}
+extension IosAwnFcmCore.FcmSource : Swift.RawRepresentable {}

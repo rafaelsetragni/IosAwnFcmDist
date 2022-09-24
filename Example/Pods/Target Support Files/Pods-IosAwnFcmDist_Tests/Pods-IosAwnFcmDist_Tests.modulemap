@@ -1,0 +1,6 @@
+framework module Pods_IosAwnFcmDist_Tests {
+  umbrella header "Pods-IosAwnFcmDist_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

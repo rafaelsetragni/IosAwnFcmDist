@@ -1,0 +1,11 @@
+framework module IosAwnFcmCore {
+  umbrella header "IosAwnFcmCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module IosAwnFcmCore.Swift {
+  header "IosAwnFcmCore-Swift.h"
+  requires objc
+}

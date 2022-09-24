@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - IosAwnCore (0.7.0-alpha.3)
+  - IosAwnFcmDist (0.7.0-alpha.3):
+    - IosAwnCore (= 0.7.0-alpha.3)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - IosAwnFcmDist (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - IosAwnCore
+
+EXTERNAL SOURCES:
+  IosAwnFcmDist:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  IosAwnCore: e1d1551a7c11aaac771a6f438a45c14771a176b1
+  IosAwnFcmDist: 3379304d73959bf0cb9f6342e9466e52c339987d
+
+PODFILE CHECKSUM: 892861d1ccd53676229f24d23dc8c8b258f3d9f9
+
+COCOAPODS: 1.11.3
