@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IosAwnFcmDist'
-  s.version          = '0.7.0-alpha.1'
+  s.version          = '0.7.0-alpha.2'
   s.summary          = 'Awn Fcm Distribution package'
 
 # This description is used to generate tags and improve search results.
@@ -28,20 +28,10 @@ Distribution package of Awesome Notifications Firebase Cloud Message (FCM) compa
   s.source           = { :git => 'https://github.com/rafaelsetragni/IosAwnFcmDist.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.dependency 'IosAwnCore', '0.7.0-alpha.3'
+  s.dependency 'IosAwnCore', '0.7.1'
   
   s.platform = :ios, '11.0'
   s.swift_version = '5.3'
   
-  #s.ios.source_files = 'IosAwnFcmClosed.framework/**/*.h'
-  #s.ios.public_header_files = 'IosAwnFcmCore.xcframework/**/*.h'
   s.ios.vendored_frameworks = 'IosAwnFcmCore.xcframework'
-  
-  # s.resource_bundles = {
-  #   'IosAwnFcmDist' => ['IosAwnFcmDist/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

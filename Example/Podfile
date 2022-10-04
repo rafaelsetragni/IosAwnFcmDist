@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'IosAwnFcmDist_Example' do
-  #pod 'IosAwnCore', '0.7.0-alpha.3'#:path => '../../IosAwnCore/'
+  #pod 'IosAwnCore', '0.7.0'#:path => '../../IosAwnCore/'
   pod 'IosAwnFcmDist', :path => '../'
 
   target 'IosAwnFcmDist_Tests' do

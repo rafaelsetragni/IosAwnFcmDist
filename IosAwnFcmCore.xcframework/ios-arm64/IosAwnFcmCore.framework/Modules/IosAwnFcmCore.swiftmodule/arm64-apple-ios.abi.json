@@ -4924,371 +4924,371 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 26,
       "value": "\"AwesomeFcmEventsReceiver\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 19,
       "value": "\"AwesomeFcmService\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 66,
       "value": "\"MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBgFf9hnX01Ey13U22dcPIbvkvEbF8\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 66,
       "value": "\"6dxGDWFpp67x6\/HdAmCEYCRKD0VgiZy53TOU9byI1KGECeneEAkdinY8GvxOtoJ0\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
       "kind": "StringLiteral",
       "offset": 421,
       "length": 66,
       "value": "\"9OWQOR+0\/2IDY7DrsXiw9n0Fm1kEGVzzD5EubglhOdg7yFpoF1iN7hpFja2BBldp\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/Crypto.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 26,
       "value": "\"XSnFAPBN0uAgiBdZAgMBAAE=\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 22,
       "value": "\"FcmBackgroundService\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/senders\/FcmBroadcastSender.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/senders\/FcmBroadcastSender.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 20,
       "value": "\"FcmBroadcastSender\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmCompletionHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/FcmDefaultsManager.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/FcmDefaultsManager.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 20,
       "value": "\"FcmDefaultsManager\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 14,
       "value": "\"AWFcmReverse\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 27,
       "value": "\"awesome_notifications_fcm\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 60,
       "value": "\"me.carda.awesome_notifications_fcm.services.firebase.TOKEN\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 56,
       "value": "\"me.carda.awesome_notifications_fcm.services.silentData\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 558,
       "length": 13,
       "value": "\"fcmDefaults\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 12,
       "value": "\"licenseKey\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 14,
       "value": "\"isSilentData\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 18,
       "value": "\"FIREBASE_ENABLED\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 856,
       "length": 12,
       "value": "\"silentData\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 7,
       "value": "\"debug\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 953,
       "length": 21,
       "value": "\"awesomeSilentHandle\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 21,
       "value": "\"awesomeDartBGHandle\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1082,
       "length": 7,
       "value": "\"topic\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1138,
       "length": 21,
       "value": "\"remainingSilentData\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1210,
       "length": 12,
       "value": "\"silentData\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 12,
       "value": "\"initialize\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 10,
       "value": "\"pushNext\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1408,
       "length": 18,
       "value": "\"getFirebaseToken\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1481,
       "length": 13,
       "value": "\"newFcmToken\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1552,
       "length": 16,
       "value": "\"newNativeToken\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 21,
       "value": "\"isFirebaseAvailable\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1704,
       "length": 16,
       "value": "\"subscribeTopic\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1779,
       "length": 18,
       "value": "\"unsubscribeTopic\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1856,
       "length": 25,
       "value": "\"silentCallbackReference\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 1936,
       "length": 23,
       "value": "\"dartCallbackReference\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
       "offset": 2014,
       "length": 10,
       "value": "\"shutdown\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/exceptions\/FcmExceptionCode.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/exceptions\/FcmExceptionCode.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 15,
       "value": "\"FCM_EXCEPTION\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/exceptions\/FcmExceptionCode.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/exceptions\/FcmExceptionCode.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 34,
       "value": "\"awesomeFcmException.FcmException\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 18,
       "value": "\"ServiceExtension\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 15,
       "value": "\"ReceiveRemote\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 18,
       "value": "\"ServiceExtension\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/enumerators\/FcmSource.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 15,
       "value": "\"ReceiveRemote\""
     },
     {
-      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 189,
       "length": 16,
