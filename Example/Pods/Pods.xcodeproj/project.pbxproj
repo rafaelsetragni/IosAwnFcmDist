@@ -257,6 +257,7 @@
 		7621194B8793E7412C4723985A99248D /* Pods-IosAwnFcmDist_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosAwnFcmDist_Example.release.xcconfig"; sourceTree = "<group>"; };
 		783410A979299D63DCEAA768EB7A6F18 /* NotificationLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationLayout.swift; path = IosAwnCore/Classes/enumerators/NotificationLayout.swift; sourceTree = "<group>"; };
 		7BE264DFCCE44D0615216EB50AFA40B4 /* ExceptionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExceptionFactory.swift; path = IosAwnCore/Classes/exceptions/ExceptionFactory.swift; sourceTree = "<group>"; };
+		7E21A6EB60A47A1380B6499D232B01AF /* IosAwnFcmCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = IosAwnFcmCore.xcframework; path = ../IosAwnFcmCore/build/IosAwnFcmCore.xcframework; sourceTree = "<group>"; };
 		7E2A69B45B68C855B077D9DA98B3E25D /* CreatedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreatedManager.swift; path = IosAwnCore/Classes/managers/CreatedManager.swift; sourceTree = "<group>"; };
 		804CA884AF2F5DF1A887BF8B9F9DBF00 /* EnumUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumUtils.swift; path = IosAwnCore/Classes/utils/EnumUtils.swift; sourceTree = "<group>"; };
 		809F8869DFC57A488730405E02A9706A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -307,7 +308,6 @@
 		D11C3EB6F1708F09083D09DBB2CA6402 /* IosAwnFcmDist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IosAwnFcmDist.release.xcconfig; sourceTree = "<group>"; };
 		D2E792C598701C1D85F7B90590731B6F /* TimeZoneUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeZoneUtils.swift; path = IosAwnCore/Classes/utils/TimeZoneUtils.swift; sourceTree = "<group>"; };
 		D4C7BF3BA05C12BD3D16BC0F50094E09 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		D4D99D7B2B202F16814742B1274DCA52 /* IosAwnFcmCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = IosAwnFcmCore.xcframework; sourceTree = "<group>"; };
 		D65727B20EFF688C44C08096496236BB /* FloatUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatUtils.swift; path = IosAwnCore/Classes/utils/FloatUtils.swift; sourceTree = "<group>"; };
 		D6D0C901B6B5340AFEFAC4E41DB6A4D8 /* NotificationIntervalModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationIntervalModel.swift; path = IosAwnCore/Classes/models/NotificationIntervalModel.swift; sourceTree = "<group>"; };
 		DC61A287E56DC387D50CC4110674D7A7 /* DefaultRingtoneType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultRingtoneType.swift; path = IosAwnCore/Classes/enumerators/DefaultRingtoneType.swift; sourceTree = "<group>"; };
@@ -455,18 +455,10 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7051F826D2D0E214DCCD449AE7E775DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D4D99D7B2B202F16814742B1274DCA52 /* IosAwnFcmCore.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B3F92B5DA3FB778E63611A2BEF070749 /* IosAwnFcmDist */ = {
 			isa = PBXGroup;
 			children = (
-				7051F826D2D0E214DCCD449AE7E775DA /* Frameworks */,
+				F302ED537BC3250F69F949B389662F20 /* Frameworks */,
 				6DEE2AEE02274E1C4395F141A9D80CFC /* Pod */,
 				BCB6A45DB62C50BF1B63322A4719AB96 /* Support Files */,
 			);
@@ -669,6 +661,14 @@
 				B3F92B5DA3FB778E63611A2BEF070749 /* IosAwnFcmDist */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F302ED537BC3250F69F949B389662F20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E21A6EB60A47A1380B6499D232B01AF /* IosAwnFcmCore.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
