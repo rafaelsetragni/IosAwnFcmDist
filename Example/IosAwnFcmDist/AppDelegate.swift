@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         print(FcmDefinitions.BROADCAST_FCM_TOKEN)
+        print(FcmDefinitions.SILENT_HANDLE)
+        print(FcmDefinitions.DART_BG_HANDLE)
         
         return true
     }
