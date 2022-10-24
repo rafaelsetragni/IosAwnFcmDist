@@ -97,7 +97,7 @@ public enum FcmCompletionHandler : Swift.Int, Swift.CaseIterable {
     get
     set
   }
-  public var licenseKey: Swift.String {
+  public var licenseKeys: [Swift.String] {
     get
     set
   }
@@ -109,7 +109,7 @@ public enum FcmDefinitions {
   public static let BROADCAST_FCM_TOKEN: Swift.String
   public static let BROADCAST_SILENT_DATA: Swift.String
   public static let SHARED_FCM_DEFAULTS: Swift.String
-  public static let LICENSE_KEY: Swift.String
+  public static let LICENSE_KEYS: Swift.String
   public static let FIREBASE_FLAG_IS_SILENT_DATA: Swift.String
   public static let FIREBASE_ENABLED: Swift.String
   public static let EXTRA_BROADCAST_FCM_TOKEN: Swift.String

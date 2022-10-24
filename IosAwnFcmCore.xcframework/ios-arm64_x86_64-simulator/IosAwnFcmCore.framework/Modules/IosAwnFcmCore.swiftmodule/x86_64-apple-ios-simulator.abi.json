@@ -2130,19 +2130,27 @@
           },
           {
             "kind": "Var",
-            "name": "licenseKey",
-            "printedName": "licenseKey",
+            "name": "licenseKeys",
+            "printedName": "licenseKeys",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvp",
-            "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvp",
+            "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvp",
+            "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvp",
             "moduleName": "IosAwnFcmCore",
             "declAttributes": [
               "AccessControl"
@@ -2155,14 +2163,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvg",
-                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvg",
+                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvg",
+                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvg",
                 "moduleName": "IosAwnFcmCore",
                 "accessorKind": "get"
               },
@@ -2178,14 +2194,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvs",
-                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvs",
+                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvs",
+                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvs",
                 "moduleName": "IosAwnFcmCore",
                 "accessorKind": "set"
               },
@@ -2201,8 +2225,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvM",
-                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC10licenseKeySSvM",
+                "usr": "s:13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvM",
+                "mangledName": "$s13IosAwnFcmCore0C15DefaultsManagerC11licenseKeysSaySSGvM",
                 "moduleName": "IosAwnFcmCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2471,8 +2495,8 @@
           },
           {
             "kind": "Var",
-            "name": "LICENSE_KEY",
-            "printedName": "LICENSE_KEY",
+            "name": "LICENSE_KEYS",
+            "printedName": "LICENSE_KEYS",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2482,8 +2506,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13IosAwnFcmCore0C11DefinitionsO11LICENSE_KEYSSvpZ",
-            "mangledName": "$s13IosAwnFcmCore0C11DefinitionsO11LICENSE_KEYSSvpZ",
+            "usr": "s:13IosAwnFcmCore0C11DefinitionsO12LICENSE_KEYSSSvpZ",
+            "mangledName": "$s13IosAwnFcmCore0C11DefinitionsO12LICENSE_KEYSSSvpZ",
             "moduleName": "IosAwnFcmCore",
             "static": true,
             "declAttributes": [
@@ -2507,8 +2531,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13IosAwnFcmCore0C11DefinitionsO11LICENSE_KEYSSvgZ",
-                "mangledName": "$s13IosAwnFcmCore0C11DefinitionsO11LICENSE_KEYSSvgZ",
+                "usr": "s:13IosAwnFcmCore0C11DefinitionsO12LICENSE_KEYSSSvgZ",
+                "mangledName": "$s13IosAwnFcmCore0C11DefinitionsO12LICENSE_KEYSSSvgZ",
                 "moduleName": "IosAwnFcmCore",
                 "static": true,
                 "implicit": true,
@@ -5094,154 +5118,154 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 609,
-      "length": 12,
-      "value": "\"licenseKey\""
+      "offset": 610,
+      "length": 13,
+      "value": "\"licenseKeys\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 679,
       "length": 14,
       "value": "\"isSilentData\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 736,
       "length": 18,
       "value": "\"FIREBASE_ENABLED\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 807,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 858,
       "length": 12,
       "value": "\"silentData\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 908,
       "length": 7,
       "value": "\"debug\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 955,
       "length": 17,
       "value": "\"fcmSilentHandle\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1011,
+      "offset": 1013,
       "length": 17,
       "value": "\"fcmDartBGHandle\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1076,
       "length": 7,
       "value": "\"topic\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 1132,
       "length": 21,
       "value": "\"remainingSilentData\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1204,
       "length": 12,
       "value": "\"silentData\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1269,
       "length": 12,
       "value": "\"initialize\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1337,
       "length": 10,
       "value": "\"pushNext\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1400,
+      "offset": 1402,
       "length": 18,
       "value": "\"getFirebaseToken\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1473,
+      "offset": 1475,
       "length": 13,
       "value": "\"newFcmToken\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1546,
       "length": 16,
       "value": "\"newNativeToken\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1618,
+      "offset": 1620,
       "length": 21,
       "value": "\"isFirebaseAvailable\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1698,
       "length": 16,
       "value": "\"subscribeTopic\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1773,
       "length": 18,
       "value": "\"unsubscribeTopic\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 1850,
       "length": 25,
       "value": "\"silentCallbackReference\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 1928,
+      "offset": 1930,
       "length": 23,
       "value": "\"dartCallbackReference\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/FcmDefinitions.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2008,
       "length": 10,
       "value": "\"shutdown\""
     },
