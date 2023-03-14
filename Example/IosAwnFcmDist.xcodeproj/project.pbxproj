@@ -84,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for IosAwnFcmDist */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3B6CEF722DE8DFF5F43A2393 /* Pods */,
@@ -144,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3B35174ED3A132351B9D0360 /* IosAwnFcmDist.podspec */,
+				607FACD21AFB9204008FA782 /* Example for IosAwnFcmDist */,
 				9BA3D3A818274C4991CE978F /* README.md */,
 				5E5033D711D32351AF5990FB /* LICENSE */,
 			);

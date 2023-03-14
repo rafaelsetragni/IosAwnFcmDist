@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IosAwnFcmCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -128,6 +128,7 @@ public enum FcmDefinitions {
   public static let CHANNEL_METHOD_IS_FCM_AVAILABLE: Swift.String
   public static let CHANNEL_METHOD_SUBSCRIBE_TOPIC: Swift.String
   public static let CHANNEL_METHOD_UNSUBSCRIBE_TOPIC: Swift.String
+  public static let CHANNEL_METHOD_DELETE_TOKEN: Swift.String
   public static let CHANNEL_METHOD_SILENCED_CALLBACK: Swift.String
   public static let CHANNEL_METHOD_DART_CALLBACK: Swift.String
   public static let CHANNEL_METHOD_SHUTDOWN_DART: Swift.String
