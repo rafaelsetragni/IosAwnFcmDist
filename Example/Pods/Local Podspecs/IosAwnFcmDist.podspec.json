@@ -1,6 +1,6 @@
 {
   "name": "IosAwnFcmDist",
-  "version": "0.7.6-pre.1",
+  "version": "0.7.6-pre.2",
   "summary": "Awn Fcm Distribution package",
   "description": "Distribution package of Awesome Notifications Firebase Cloud Message (FCM) companion plugin",
   "homepage": "https://github.com/rafaelsetragni/IosAwnFcmDist",
@@ -13,11 +13,17 @@
   },
   "source": {
     "git": "https://github.com/rafaelsetragni/IosAwnFcmDist.git",
-    "tag": "0.7.6-pre.1"
+    "tag": "0.7.6-pre.2"
   },
   "dependencies": {
     "IosAwnCore": [
-      "0.7.4-pre.1"
+      "0.7.4-pre.3"
+    ],
+    "FirebaseCore": [
+
+    ],
+    "FirebaseMessaging": [
+
     ]
   },
   "platforms": {

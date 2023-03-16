@@ -213,8 +213,8 @@
           },
           {
             "kind": "Function",
-            "name": "addNewTokenEvent",
-            "printedName": "addNewTokenEvent(withToken:)",
+            "name": "addNewFcmTokenEvent",
+            "printedName": "addNewFcmTokenEvent(withToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -237,8 +237,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13IosAwnFcmCore07AwesomeC14EventsReceiverC16addNewTokenEvent04withJ0ySSSg_tF",
-            "mangledName": "$s13IosAwnFcmCore07AwesomeC14EventsReceiverC16addNewTokenEvent04withJ0ySSSg_tF",
+            "usr": "s:13IosAwnFcmCore07AwesomeC14EventsReceiverC06addNewC10TokenEvent04withJ0ySSSg_tF",
+            "mangledName": "$s13IosAwnFcmCore07AwesomeC14EventsReceiverC06addNewC10TokenEvent04withJ0ySSSg_tF",
             "moduleName": "IosAwnFcmCore",
             "declAttributes": [
               "AccessControl"
@@ -4275,6 +4275,29 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printValidationTest",
+            "printedName": "printValidationTest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore14LicenseManagerC19printValidationTestSbyKF",
+            "mangledName": "$s13IosAwnFcmCore14LicenseManagerC19printValidationTestSbyKF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4989,6 +5012,435 @@
             "mangledName": "$s10IosAwnCore13AbstractModelP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosAwnFcmCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IosAwnCore",
+        "printedName": "IosAwnCore",
+        "declKind": "Import",
+        "moduleName": "IosAwnFcmCore"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "IosAwnFcmCore"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseMessaging",
+        "printedName": "FirebaseMessaging",
+        "declKind": "Import",
+        "moduleName": "IosAwnFcmCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenManager",
+        "printedName": "TokenManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC5debugSbvp",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC5debugSbvp",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IosAwnFcmCore12TokenManagerC5debugSbvg",
+                "mangledName": "$s13IosAwnFcmCore12TokenManagerC5debugSbvg",
+                "moduleName": "IosAwnFcmCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IosAwnFcmCore12TokenManagerC5debugSbvs",
+                "mangledName": "$s13IosAwnFcmCore12TokenManagerC5debugSbvs",
+                "moduleName": "IosAwnFcmCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IosAwnFcmCore12TokenManagerC5debugSbvM",
+                "mangledName": "$s13IosAwnFcmCore12TokenManagerC5debugSbvM",
+                "moduleName": "IosAwnFcmCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TokenManager",
+                "printedName": "IosAwnFcmCore.TokenManager",
+                "usr": "s:13IosAwnFcmCore12TokenManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC6sharedACvpZ",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC6sharedACvpZ",
+            "moduleName": "IosAwnFcmCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenManager",
+                    "printedName": "IosAwnFcmCore.TokenManager",
+                    "usr": "s:13IosAwnFcmCore12TokenManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IosAwnFcmCore12TokenManagerC6sharedACvgZ",
+                "mangledName": "$s13IosAwnFcmCore12TokenManagerC6sharedACvgZ",
+                "moduleName": "IosAwnFcmCore",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setLastFcmToken",
+            "printedName": "setLastFcmToken(withValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC07setLastcE09withValueySSSg_tF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC07setLastcE09withValueySSSg_tF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLastNativeToken",
+            "printedName": "setLastNativeToken(withValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC013setLastNativeE09withValuey10Foundation4DataV_tF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC013setLastNativeE09withValuey10Foundation4DataV_tF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveRegistrationToken",
+            "printedName": "didReceiveRegistrationToken(_:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Messaging",
+                "printedName": "FirebaseMessaging.Messaging",
+                "usr": "c:objc(cs)FIRMessaging"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC022didReceiveRegistrationE0_5tokenySo12FIRMessagingC_SStF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC022didReceiveRegistrationE0_5tokenySo12FIRMessagingC_SStF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC11application_043didRegisterForRemoteNotificationsWithDeviceE0ySo13UIApplicationC_10Foundation4DataVtF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC11application_043didRegisterForRemoteNotificationsWithDeviceE0ySo13UIApplicationC_10Foundation4DataVtF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNewFcmToken",
+            "printedName": "requestNewFcmToken(whenFinished:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, IosAwnCore.AwesomeNotificationsException?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, IosAwnCore.AwesomeNotificationsException?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IosAwnCore.AwesomeNotificationsException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AwesomeNotificationsException",
+                            "printedName": "IosAwnCore.AwesomeNotificationsException",
+                            "usr": "s:10IosAwnCore29AwesomeNotificationsExceptionC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC010requestNewcE012whenFinishedyySSSg_0abD029AwesomeNotificationsExceptionCSgtc_tF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC010requestNewcE012whenFinishedyySSSg_0abD029AwesomeNotificationsExceptionCSgtc_tF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteToken",
+            "printedName": "deleteToken(whenFinished:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, IosAwnCore.AwesomeNotificationsException?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, IosAwnCore.AwesomeNotificationsException?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "IosAwnCore.AwesomeNotificationsException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AwesomeNotificationsException",
+                            "printedName": "IosAwnCore.AwesomeNotificationsException",
+                            "usr": "s:10IosAwnCore29AwesomeNotificationsExceptionC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IosAwnFcmCore12TokenManagerC06deleteE012whenFinishedyySb_0abD029AwesomeNotificationsExceptionCSgtc_tF",
+            "mangledName": "$s13IosAwnFcmCore12TokenManagerC06deleteE012whenFinishedyySb_0abD029AwesomeNotificationsExceptionCSgtc_tF",
+            "moduleName": "IosAwnFcmCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13IosAwnFcmCore12TokenManagerC",
+        "mangledName": "$s13IosAwnFcmCore12TokenManagerC",
+        "moduleName": "IosAwnFcmCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
@@ -5371,6 +5823,27 @@
       "offset": 189,
       "length": 16,
       "value": "\"LicenseManager\""
+    },
+    {
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 13,
+      "value": "\"0.7.5-pre.1\""
+    },
+    {
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 14,
+      "value": "\"TokenManager\""
+    },
+    {
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 370,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
