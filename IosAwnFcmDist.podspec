@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IosAwnFcmDist'
-  s.version          = '0.7.6-pre.2'
+  s.version          = '0.7.6-pre.3'
   s.summary          = 'Awn Fcm Distribution package'
 
 # This description is used to generate tags and improve search results.

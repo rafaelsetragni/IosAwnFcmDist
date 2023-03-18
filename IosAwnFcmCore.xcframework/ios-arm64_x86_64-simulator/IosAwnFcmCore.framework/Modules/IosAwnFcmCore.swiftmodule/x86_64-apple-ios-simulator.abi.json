@@ -5844,6 +5844,13 @@
       "offset": 370,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1867,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

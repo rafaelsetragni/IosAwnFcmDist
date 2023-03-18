@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hi1DgMtKnu/0Q8sb8PriJ3jlHzM=
+		5s72g7r7MefpzZ8omYJfyF9xmqo=
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+2AX2fCD0pTycFHpZfN9LebdX1o=
+		PvOHMw9HYsASXtBRQfeHUMqDQ84=
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hi1DgMtKnu/0Q8sb8PriJ3jlHzM=
+		5s72g7r7MefpzZ8omYJfyF9xmqo=
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IosAwnFcmCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CYyaBv+fG+9pMomHbZ2zADbkrrA=
+		U+YrNX3HqkKWoiOUcuHtiNfr9Og=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hi1DgMtKnu/0Q8sb8PriJ3jlHzM=
+			5s72g7r7MefpzZ8omYJfyF9xmqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/gN0E3bpg1H+X/3Aodj6So+82H5JpBMeKEjZ9JPzmBQ=
+			XduJhslCwR1wGR98ACSbUiYqKkQ2r+KYY4ab3TYYoJk=
 			</data>
 		</dict>
 		<key>Modules/IosAwnFcmCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,22 +133,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+2AX2fCD0pTycFHpZfN9LebdX1o=
+			PvOHMw9HYsASXtBRQfeHUMqDQ84=
 			</data>
 			<key>hash2</key>
 			<data>
-			0mNgMI8XCVpDRoCt9TEAAbU8lHyj3Zrgf9yubxO2k00=
+			5D7HV3O1ncsc/Atui5PTeUsRipxtgmN0xPgVFrUgSQU=
 			</data>
 		</dict>
 		<key>Modules/IosAwnFcmCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hi1DgMtKnu/0Q8sb8PriJ3jlHzM=
+			5s72g7r7MefpzZ8omYJfyF9xmqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/gN0E3bpg1H+X/3Aodj6So+82H5JpBMeKEjZ9JPzmBQ=
+			XduJhslCwR1wGR98ACSbUiYqKkQ2r+KYY4ab3TYYoJk=
 			</data>
 		</dict>
 		<key>Modules/IosAwnFcmCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CYyaBv+fG+9pMomHbZ2zADbkrrA=
+			U+YrNX3HqkKWoiOUcuHtiNfr9Og=
 			</data>
 			<key>hash2</key>
 			<data>
-			xxop90CWMzvimgS4R/fIfyvwYE1jrUGKUQQgz8tNNRY=
+			bwKXoMa2S4xQeNwMOmgO45l1CB4o3us0t9jl5jkduos=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
