@@ -45,11 +45,11 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.11.0):
     - GoogleUtilities/Logger
-  - IosAwnCore (0.7.4-pre.3)
-  - IosAwnFcmDist (0.7.6-pre.2):
+  - IosAwnCore (0.7.5-dev.2)
+  - IosAwnFcmDist (0.7.5-dev.2):
     - FirebaseCore
     - FirebaseMessaging
-    - IosAwnCore (= 0.7.4-pre.3)
+    - IosAwnCore (= 0.7.5-dev.2)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
@@ -59,7 +59,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - IosAwnCore (= 0.7.4-pre.3)
+  - IosAwnCore (= 0.7.5-dev.2)
   - IosAwnFcmDist (from `../`)
 
 SPEC REPOS:
@@ -87,11 +87,11 @@ SPEC CHECKSUMS:
   FirebaseMessaging: fd93783258c53ae5cdb9b41bf0c51606a677f2d5
   GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
   GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
-  IosAwnCore: ffa7fae4590c717dff53f5f5188cf129914440e0
-  IosAwnFcmDist: 42e76d8599995b00c779c2749f71af9b42990cba
+  IosAwnCore: f91ab77c879277e40e57924c3c9699fafcfc3c02
+  IosAwnFcmDist: e9c8a53f4985e5e68bb426d84c074a4db51207e4
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
 
-PODFILE CHECKSUM: 2223f36ed3da2396507e3b18eb8ea8af3c62050c
+PODFILE CHECKSUM: dc94658e973ff50ad4894f8c5231ff2e92759bf8
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1

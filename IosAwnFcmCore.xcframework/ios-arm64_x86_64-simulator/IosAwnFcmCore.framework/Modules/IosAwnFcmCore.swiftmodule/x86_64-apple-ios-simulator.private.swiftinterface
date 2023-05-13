@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IosAwnFcmCore
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IosAwnFcmCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import FirebaseCore
 import FirebaseMessaging
@@ -16,8 +16,8 @@ import _StringProcessing
   public static var shared: IosAwnFcmCore.AwesomeFcmEventsReceiver {
     get
   }
-  public func subscribeOnNotificationEvents(listener: IosAwnFcmCore.AwesomeFcmListener) -> Self
-  public func unsubscribeOnNotificationEvents(listener: IosAwnFcmCore.AwesomeFcmListener) -> Self
+  public func subscribeOnNotificationEvents(listener: any IosAwnFcmCore.AwesomeFcmListener) -> Self
+  public func unsubscribeOnNotificationEvents(listener: any IosAwnFcmCore.AwesomeFcmListener) -> Self
   public func addNewFcmTokenEvent(withToken token: Swift.String?)
   public func addNewNativeTokenEvent(withToken token: Swift.String?)
   @objc deinit
@@ -50,7 +50,7 @@ public protocol FcmBackgroundExecutor {
   func runBackgroundProcess(silentDataRequest: IosAwnFcmCore.FcmSilentDataRequest, silentCallbackHandle: Swift.Int64, dartCallbackHandle: Swift.Int64)
 }
 @_hasMissingDesignatedInitializers open class FcmBackgroundService {
-  public static var backgroundFcmClassType: IosAwnFcmCore.FcmBackgroundExecutor.Type?
+  public static var backgroundFcmClassType: (any IosAwnFcmCore.FcmBackgroundExecutor.Type)?
   public static var shared: IosAwnFcmCore.FcmBackgroundService {
     get
   }
@@ -62,7 +62,7 @@ public protocol FcmBackgroundExecutor {
     get
   }
   public func SendBroadcastNewFcmToken(token: Swift.String)
-  public func SendBroadcastSilentData(silentData: IosAwnFcmCore.SilentDataModel, completionHandler: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void) throws -> Swift.Bool
+  public func SendBroadcastSilentData(silentData: IosAwnFcmCore.SilentDataModel, completionHandler: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void) throws -> Swift.Bool
   @objc deinit
 }
 public enum FcmCompletionHandler : Swift.Int, Swift.CaseIterable {
@@ -141,7 +141,7 @@ public enum FcmExceptionCode {
 }
 @_hasMissingDesignatedInitializers public class FcmSilentDataRequest {
   final public let silentData: IosAwnFcmCore.SilentDataModel
-  final public let handler: (Swift.Bool, Swift.Error?) -> ()
+  final public let handler: (Swift.Bool, (any Swift.Error)?) -> ()
   @objc deinit
 }
 public enum FcmSource : Swift.String, Swift.CaseIterable {
@@ -170,7 +170,7 @@ public enum FcmSource : Swift.String, Swift.CaseIterable {
   public var createdDate: IosAwnCore.RealDateTime?
   public var createdSource: IosAwnCore.NotificationSource?
   public var createdLifeCycle: IosAwnCore.NotificationLifeCycle?
-  public func fromMap(arguments: [Swift.String : Any?]?) -> IosAwnCore.AbstractModel?
+  convenience public init?(fromMap arguments: [Swift.String : Any?]?)
   public func registerCreationEvent(createdSource: IosAwnCore.NotificationSource, createdLifeCycle: IosAwnCore.NotificationLifeCycle)
   public func toMap() -> [Swift.String : Any?]
   public func validate() throws
