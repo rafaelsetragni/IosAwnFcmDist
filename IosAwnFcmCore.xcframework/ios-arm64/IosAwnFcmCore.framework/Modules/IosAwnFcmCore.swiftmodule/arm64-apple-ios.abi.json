@@ -5464,28 +5464,28 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1089,
+      "offset": 1096,
       "length": 35,
       "value": "\" subscribed to receive FCM events\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1480,
       "length": 31,
       "value": "\" unsubscribed from FCM events\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1725,
       "length": 91,
       "value": "\"New FCM token event ignored, as there is no listeners waiting for new notification events\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/broadcasters\/receivers\/AwesomeFcmEventsReceiver.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2111,
       "length": 94,
       "value": "\"New Native token event ignored, as there is no listeners waiting for new notification events\""
     },
@@ -5527,343 +5527,343 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1712,
       "length": 74,
       "value": "\"Background silent push execution finished in \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1783,
       "length": 2,
       "value": "\"ms\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2523,
+      "offset": 2530,
       "length": 13,
       "value": "1000000000"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2642,
       "length": 76,
       "value": "\"Remote push notification execution finished in \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2715,
       "length": 2,
       "value": "\"ms\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3227,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 3263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3357,
+      "offset": 3371,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3431,
+      "offset": 3445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3481,
+      "offset": 3495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3532,
+      "offset": 3553,
       "length": 32,
       "value": "\"Received Firebase message id: \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3621,
+      "offset": 3642,
       "length": 5,
       "value": "\"aps\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3716,
       "length": 7,
       "value": "\"alert\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3800,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3837,
+      "offset": 3858,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3903,
+      "offset": 3924,
       "length": 7,
       "value": "\"badge\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 3973,
+      "offset": 3994,
       "length": 13,
       "value": "\"fcm_options\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 4043,
+      "offset": 4064,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4256,
+      "offset": 4277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4427,
+      "offset": 4448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4503,
+      "offset": 4524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4553,
+      "offset": 4574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4789,
+      "offset": 4810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4856,
+      "offset": 4877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4915,
+      "offset": 4936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 5325,
+      "offset": 5346,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 5660,
       "length": 46,
       "value": "\"message_id was not found in silent push data\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 5771,
+      "offset": 5792,
       "length": 30,
       "value": "\".handleSilentData.message_id\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 5856,
+      "offset": 5884,
       "length": 32,
       "value": "\"Received Firebase message id: \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 6270,
+      "offset": 6298,
       "length": 47,
       "value": "\"UserInfo could not be converted into data map\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 6401,
+      "offset": 6429,
       "length": 28,
       "value": "\".handleSilentData.userInfo\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 6838,
+      "offset": 6866,
       "length": 58,
       "value": "\"AwesomeFcmService received a invalid silent data content\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 6983,
+      "offset": 7011,
       "length": 27,
       "value": "\".handleSilentData.invalid\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7547,
+      "offset": 7575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7584,
+      "offset": 7612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7678,
+      "offset": 7706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 7959,
+      "offset": 7987,
       "length": 58,
       "value": "\"AwesomeFcmService received a invalid silent data content\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 8104,
+      "offset": 8132,
       "length": 27,
       "value": "\".handleSilentData.invalid\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8157,
+      "offset": 8185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "Dictionary",
-      "offset": 8627,
+      "offset": 8655,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 9997,
+      "offset": 10025,
       "length": 67,
       "value": "\"AwesomeFcmService received a invalid awesome notification content\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 10145,
+      "offset": 10173,
       "length": 28,
       "value": "\".notificationModel.invalid\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10759,
+      "offset": 10787,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 10848,
+      "offset": 10876,
       "length": 15,
       "value": "\"basic_channel\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 11100,
+      "offset": 11128,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 11530,
+      "offset": 11565,
       "length": 28,
       "value": "\"Push notification received\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 11849,
+      "offset": 11884,
       "length": 9,
       "value": "\"[DEMO] \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "StringLiteral",
-      "offset": 12011,
+      "offset": 12046,
       "length": 9,
       "value": "\"[DEMO] \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/AwesomeFcmService.swift",
       "kind": "BooleanLiteral",
-      "offset": 12816,
+      "offset": 12851,
       "length": 5,
       "value": "false"
     },
@@ -5912,84 +5912,84 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 875,
       "length": 43,
       "value": "\"A new Dart background service has started\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1124,
+      "offset": 1131,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1387,
       "length": 107,
       "value": "\"A background message could not be handled in Dart because there is no valid background handler registered\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1577,
       "length": 29,
       "value": "\".enqueue.backgroundCallback\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1649,
+      "offset": 1656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 1905,
+      "offset": 1912,
       "length": 112,
       "value": "\"A background message could not be handled in Dart because there is no valid silent callback handler registered\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 2100,
+      "offset": 2107,
       "length": 25,
       "value": "\".enqueue.silentCallback\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2628,
+      "offset": 2635,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4149,
+      "offset": 4156,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4458,
       "length": 54,
       "value": "\"Background silent push service reached timeout limit\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "StringLiteral",
-      "offset": 4588,
+      "offset": 4595,
       "length": 43,
       "value": "\".backgroundThreadServiceExecution.timeout\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/services\/FcmBackgroundService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4692,
+      "offset": 4699,
       "length": 4,
       "value": "true"
     },
@@ -6458,98 +6458,98 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2348,
       "length": 36,
       "value": "\"Invalid license key: \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2369,
+      "offset": 2383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2446,
+      "offset": 2460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2575,
+      "offset": 2589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2631,
+      "offset": 2652,
       "length": 46,
       "value": "\"Awesome Notification's license key validated\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2698,
+      "offset": 2719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2825,
       "length": 75,
       "value": "\"You need to insert a valid license key to use Awesome Notification's FCM \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2892,
+      "offset": 2920,
       "length": 115,
       "value": "\"plugin in release mode without watermarks (Bundle ID: \"\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 3026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 3001,
+      "offset": 3029,
       "length": 1,
       "value": "\"\"). \""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 3051,
       "length": 87,
       "value": "\"To know more about it, please visit https:\/\/www.awesome-notifications.carda.me#prices\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "Array",
-      "offset": 3532,
+      "offset": 3560,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3570,
+      "offset": 3598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/licenses\/LicenseManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3917,
+      "offset": 3945,
       "length": 4,
       "value": "1024"
     },
@@ -6591,77 +6591,77 @@
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 1608,
+      "offset": 1615,
       "length": 28,
       "value": "\"Received a new valid token\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1867,
+      "offset": 1874,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2055,
+      "offset": 2062,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2133,
+      "offset": 2147,
       "length": 33,
       "value": "\"Received a new valid APNs token\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 3017,
       "length": 32,
       "value": "\"Received a new valid FCM token\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 3085,
       "length": 30,
       "value": "\"Fcm token registering failed\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 3641,
+      "offset": 3662,
       "length": 16,
       "value": "\".request.token\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4052,
+      "offset": 4073,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 4791,
+      "offset": 4819,
       "length": 37,
       "value": "\"Token and all subscriptions deleted\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 4856,
+      "offset": 4884,
       "length": 23,
       "value": "\"Token deletion failed\""
     },
     {
       "filePath": "\/Users\/rafaelsetragni\/Documents\/GitHub\/plugins\/IosAwnFcmCore\/IosAwnFcmCore\/Classes\/managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5437,
       "length": 14,
       "value": "\".deleteToken\""
     }

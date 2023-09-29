@@ -1,6 +1,0 @@
-framework module IosAwnFcmDist {
-  umbrella header "IosAwnFcmDist-umbrella.h"
-
-  export *
-  module * { export * }
-}
