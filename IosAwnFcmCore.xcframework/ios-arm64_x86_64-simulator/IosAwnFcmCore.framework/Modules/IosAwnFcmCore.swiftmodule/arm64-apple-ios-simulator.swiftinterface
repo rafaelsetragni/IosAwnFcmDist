@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IosAwnFcmCore
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IosAwnFcmCore
 import FirebaseCore
 import FirebaseMessaging
 import Foundation
@@ -101,7 +100,7 @@ public enum FcmCompletionHandler : Swift.Int, Swift.CaseIterable {
     get
     set
   }
-  public var licenseKeys: [Swift.String] {
+  public var licenseKeys: [Swift.String]? {
     get
     set
   }
@@ -125,6 +124,7 @@ public enum FcmDefinitions {
   public static let REMAINING_SILENT_DATA: Swift.String
   public static let NOTIFICATION_SILENT_DATA: Swift.String
   public static let RPC_DISMISS: Swift.String
+  public static let RPC_DISMISS_BY_ID: Swift.String
   public static let RPC_DISMISS_BY_CHANNEL: Swift.String
   public static let RPC_DISMISS_BY_GROUP: Swift.String
   public static let RPC_DISMISS_ALL: Swift.String
